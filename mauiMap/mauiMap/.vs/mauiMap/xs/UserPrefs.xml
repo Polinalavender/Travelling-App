@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{B5D6B0D9-04B6-403D-97FC-D390D78176FA}|Default">
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="33.0.46" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="mauiMap/Platforms/Android/AndroidManifest.xml">
+    <Files>
+      <File FileName="mauiMap/MainPage.xaml.cs" Line="6" Column="19" />
+      <File FileName="mauiMap/MainPage.xaml" Line="8" Column="34" />
+      <File FileName="mauiMap/App.xaml" Line="1" Column="1" />
+      <File FileName="mauiMap/AppShell.xaml" Line="1" Column="1" />
+      <File FileName="mauiMap/AppShell.xaml.cs" Line="1" Column="1" />
+      <File FileName="mauiMap/MauiProgram.cs" Line="1" Column="36" />
+      <File FileName="mauiMap/Platforms/Android/MainActivity.cs" />
+      <File FileName="mauiMap/Platforms/Android/MainApplication.cs" />
+      <File FileName="mauiMap/Platforms/Android/Resources/values/colors.xml" Line="1" Column="1" />
+      <File FileName="mauiMap/Platforms/Android/AndroidManifest.xml" Line="8" Column="23" />
+      <File FileName="mauiMap/Platforms/iOS/Info.plist" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="mauiMap" expanded="True">
+            <Node name="mauiMap" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="Android" expanded="True">
+                  <Node name="Resources" expanded="True">
+                    <Node name="values" expanded="True" />
+                  </Node>
+                  <Node name="AndroidManifest.xml" selected="True" />
+                </Node>
+                <Node name="iOS" expanded="True" />
+                <Node name="Tizen" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_-_api_33" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.mauiMap PreferredExecutionTarget="Android.pixel_-_api_33" />
+</Properties>
