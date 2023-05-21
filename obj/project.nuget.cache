@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zi3nCyl6/j0uqravHiXZhw+WC+NTnHm8gkYlyqaWEwcoJw3n3xYj6hbA/pJ9Q5O5AESySkkJAjPnR3tyWOfZMQ==",
+  "dgSpecHash": "isXmogWisJNmI5vhCQFZ1iQayccaJlTQZZqD3K87TfnGyRHfH88YgAWsTZxMFfdViF5phL/cuUmlYQc/5q8zPQ==",
   "success": true,
-  "projectFilePath": "/Users/polinaive/Projects/travel app/travel app/travel app.csproj",
+  "projectFilePath": "/Users/polinaive/Documents/GitHub/Travelling-App/travel app.csproj",
   "expectedPackageFiles": [
     "/Users/polinaive/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/polinaive/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
