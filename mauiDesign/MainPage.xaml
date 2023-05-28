@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#C4E5FE"
+             x:Class="mauiDesign.MainPage">
+
+    <!--
+        Fixes that need to be made:
+            - ON IOS and ANDROID sometimes the search image displays on the right,
+            - Make the first two labels and button into a stack layout
+            - Make sure that it works on each device Android, IOS etc.
+
+    -->
+
+    <ScrollView>
+                <Grid RowDefinitions="270, 65, 85, 330, 60" ColumnDefinitions="*,*,*">
+                    <!--
+                    In rows we measure height, in columns width
+
+                    A row is 100 units in height, Absolute will always 100 units of height, Auto will occupy the content, proportion is going to be * static which will occupy the remaining space on the screen
+
+                    Column definitions we use two columns with the same width *,* means two columns with the same width
+                  -->
+
+                    <!--<Rectangle Fill="Blue" Grid.Row = "0" Grid.ColumnSpan = "2"
+                               RadiusX="0" RadiusY="40"/>-->
+
+                    <!-- First part of background (rounded bottom part) -->
+                    <BoxView Grid.Row="0" Grid.ColumnSpan="3" Color="#8DB6D6" CornerRadius="0,0,25,25">
+                    </BoxView>
+
+                    <!-- Calibri regular text introduction -->
+                    <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Welcome Back," TextColor="White" FontFamily="cRegular" FontSize="15" Margin="100,60,0,0"/>
+
+                   <!-- <Label Grid.Row="0" Grid.ColumnSpan="3" HorizontalOptions="Center" Text="Welcome Back," TextColor="White" FontFamily="cRegular" FontSize="15" Margin="0,60,0,0"/> -->
+
+                
+                    <!-- Calibri bold text name (to be dynamic) Let's keep it on a first name basis -->
+                    <Label Grid.Row="0" Grid.ColumnSpan="2" Text="Dakota Brons" TextColor="White" FontFamily="cBold" FontSize="25" Margin="100,75,0,0"/>
+
+                    <!-- Bell Icon -->
+                    <ImageButton Source="alert.png" Grid.Row="0" Grid.Column="3" VerticalOptions="Start" HorizontalOptions="Center" HeightRequest="50" WidthRequest="50" Margin="0,65,0,0"/>
+
+                    <!-- Search box -->
+                            <Frame Grid.Row="0" Grid.ColumnSpan="3" VerticalOptions="Start" HorizontalOptions="Center" WidthRequest="320" HeightRequest="50" CornerRadius="20" Margin="0,130,0,0">
+                                <HorizontalStackLayout HeightRequest="50" Spacing="10">
+                                         <ImageButton Source="search.png" HeightRequest="25"/>
+                                        <Entry HeightRequest="70" WidthRequest="320" Placeholder="Search for your journey"/>
+                                </HorizontalStackLayout>
+                            </Frame>
+                    
+                        <!--
+                        <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="White">
+                             <Image Source="search.png" HeightRequest="20" WidthRequest="47"/>
+                         </Frame>
+                        <Frame Grid.Row="0" Grid.Column="2" BackgroundColor="White">
+                            <Entry HeightRequest="47" WidthRequest="200" Placeholder="sdsada"/>                   
+                        </Frame>
+                        -->
+                
+                    <!--
+                    <Frame Grid.Row="0" Grid.ColumnSpan="3" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="White" HeightRequest="47" WidthRequest="320" Margin="0,0,0,0">
+                        <Entry HeightRequest="67" WidthRequest="200" Placeholder="sdsada"/>                   
+                    </Frame>
+                     -->
+
+                    <!-- Transportation Panel -->
+                    <!--
+                    <Frame Grid.Row="0" Grid.ColumnSpan="3" VerticalOptions="Start" HorizontalOptions="Center" HeightRequest="80" WidthRequest="320" BackgroundColor="White" CornerRadius="20" Margin="0,230,0,0">
+                        <Grid RowDefinitions="30,15" ColumnDefinitions="320">
+                                    <HorizontalStackLayout Grid.Row="0" Grid.ColumnSpan="1">
+                                                <Border HeightRequest="40" WidthRequest="40" StrokeThickness="2">
+                                                <Border.Stroke>
+                                                    <LinearGradientBrush EndPoint="0,1">
+                                                        <GradientStop Color="#C4E5FE"
+                                                                      Offset="1.0" />
+                                                        <GradientStop Color="#C4E5FE"
+                                                                      Offset="1.0" />
+                                                    </LinearGradientBrush>
+                                               </Border.Stroke>
+                                                <Border.StrokeShape>
+                                                    <RoundRectangle CornerRadius="60"/>   
+                                                </Border.StrokeShape>
+                                                        <ImageButton Source="airplane.png"/>
+                                                </Border>
+                                     </HorizontalStackLayout>
+                                     <Label></Label>
+                                     <HorizontalStackLayout Grid.Row="1" Grid.ColumnSpan="1">
+                                                <Label FontSize="11" FontFamily="cRegular" Text="pula"></Label>
+                                </HorizontalStackLayout>
+                            </Grid>
+                    </Frame>
+                    -->
+
+
+                    <!-- Change padding to delimit between the image and text -->
+                    <Frame WidthRequest="320" HeightRequest="80" BackgroundColor="White" Padding="15" Grid.Row="0" Grid.ColumnSpan="3" VerticalOptions="Start" HorizontalOptions="Center" Margin="0,230,0,0" CornerRadius="20">
+                    <StackLayout Orientation="Horizontal" Spacing="45">
+                        <StackLayout>
+                                              <Border HeightRequest="40" WidthRequest="40" StrokeThickness="4">
+                                                <Border.Stroke>
+                                                    <LinearGradientBrush EndPoint="0,1">
+                                                        <GradientStop Color="#C4E5FE"
+                                                                      Offset="1.0" />
+                                                        <GradientStop Color="#C4E5FE"
+                                                                      Offset="1.0" />
+                                                    </LinearGradientBrush>
+                                               </Border.Stroke>
+                                                <Border.StrokeShape>
+                                                    <RoundRectangle CornerRadius="60"/>   
+                                                </Border.StrokeShape>
+                                                        <ImageButton Source="airplane.png" Aspect="AspectFit"/>
+                                                </Border>
+                            <Label Text="Flights" FontSize="10" HorizontalOptions="Center" FontFamily="cRegular"/>
+                        </StackLayout>
+                        <StackLayout>
+                                            <Border HeightRequest="40" WidthRequest="40" StrokeThickness="4">
+                                                <Border.Stroke>
+                                                    <LinearGradientBrush EndPoint="0,1">
+                                                        <GradientStop Color="#C4E5FE"
+                                                                      Offset="1.0" />
+                                                        <GradientStop Color="#C4E5FE"
+                                                                      Offset="1.0" />
+                                                    </LinearGradientBrush>
+                                               </Border.Stroke>
+                                                <Border.StrokeShape>
+                                                    <RoundRectangle CornerRadius="60"/>   
+                                                </Border.StrokeShape>
+                                                        <ImageButton Source="rail.png" Aspect="AspectFit"/>
+                                                </Border>
+                            <Label Text="Train" FontSize="10" HorizontalOptions="Center" FontFamily="cRegular"/>
+                        </StackLayout>
+                        <StackLayout>
+                                      <Border HeightRequest="40" WidthRequest="40" StrokeThickness="4">
+                                                <Border.Stroke>
+                                                    <LinearGradientBrush EndPoint="0,1">
+                                                        <GradientStop Color="#C4E5FE"
+                                                                      Offset="1.0" />
+                                                        <GradientStop Color="#C4E5FE"
+                                                                      Offset="1.0" />
+                                                    </LinearGradientBrush>
+                                               </Border.Stroke>
+                                                <Border.StrokeShape>
+                                                    <RoundRectangle CornerRadius="60"/>   
+                                                </Border.StrokeShape>
+                                                        <ImageButton Source="bus.png" Aspect="AspectFit"/>
+                                                </Border>
+                            <Label Text="Bus" FontSize="10" HorizontalOptions="Center" FontFamily="cRegular"/>
+                        </StackLayout>
+                          <StackLayout>
+                                      <Border HeightRequest="40" WidthRequest="40" StrokeThickness="4">
+                                                <Border.Stroke>
+                                                    <LinearGradientBrush EndPoint="0,1">
+                                                        <GradientStop Color="#C4E5FE"
+                                                                      Offset="1.0" />
+                                                        <GradientStop Color="#C4E5FE"
+                                                                      Offset="1.0" />
+                                                    </LinearGradientBrush>
+                                               </Border.Stroke>
+                                                <Border.StrokeShape>
+                                                    <RoundRectangle CornerRadius="60"/>   
+                                                </Border.StrokeShape>
+                                                        <ImageButton Source="bicycle.png" Aspect="AspectFit"/>
+                                                </Border>
+                            <Label Text="Bike" FontSize="10" HorizontalOptions="Center" FontFamily="cRegular" />
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                    
+                    <!-- Links Destinations Main Page -->
+                    <StackLayout Orientation="Horizontal" Spacing="50" Grid.Row="2" Grid.ColumnSpan="3" HorizontalOptions="Center">                      
+                           <StackLayout>
+                                <Button x:Name="forYouB" Text="For You" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" Background="Transparent" Clicked="forYouBC"/>
+                                <Label x:Name="forYouL" Text="&#x2022;" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" HorizontalOptions="Center" IsVisible="true"/>
+                            </StackLayout>
+                            <StackLayout>
+                                <Button x:Name="mViewedB" Text="Most viewed" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" Background="Transparent" Clicked="mViewedBC"/>
+                                <Label x:Name="mViewedL" Text="&#x2022;" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" HorizontalOptions="Center" IsVisible="true"/>
+                            </StackLayout>
+                             <StackLayout>
+                                <Button x:Name="allB" Text="All" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" Background="Transparent" Clicked="allBC"/>
+                                <Label x:Name="allL" Text="&#x2022;" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" HorizontalOptions="Center" IsVisible="true"/>
+                            </StackLayout>                         
+                    </StackLayout>
+
+                    <!-- Future Image Carousel-->
+                        <Grid ColumnDefinitions="200" RowDefinitions="320" Grid.Row="3" Grid.ColumnSpan="3" HorizontalOptions="Center">
+                            <Image Source="palm.jpeg" Aspect="AspectFill" HeightRequest="320" WidthRequest="200"/>
+
+                                
+                                <Frame BackgroundColor="#D9D9D9B2" Opacity="0.7" HeightRequest="50" VerticalOptions="End">
+                                </Frame>
+
+                                <VerticalStackLayout
+                                       HorizontalOptions="Start"
+                                       VerticalOptions="End">
+                                  <Label Text="Maldives,"
+                                       TextColor="Black"
+                                       FontFamily="cBold"
+                                       FontSize="20"/>
+
+                                 <Label Text="South Asia"
+                                       TextColor="Black"
+                                       FontFamily="cBold"
+                                       FontSize="20"/>
+                                </VerticalStackLayout>
+
+                                <VerticalStackLayout
+                                       HorizontalOptions="End"
+                                       VerticalOptions="End">
+                                  <Label Text="$50.00"
+                                       TextColor="Black"
+                                       FontFamily="cBold"
+                                       FontSize="20"/>
+
+                                 <Label Text="/per person"
+                                       TextColor="Black"
+                                       FontFamily="cBold"
+                                       FontSize="15"/>
+                                </VerticalStackLayout> 
+                        </Grid>
+
+                        <!-- Footer -->
+
+                        
+                            <Grid Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" BackgroundColor="#8DB6D6">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+
+                                     <StackLayout Grid.Column="0" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="25,0,0,0">
+                                            <Image Source="home.png" WidthRequest="22" HeightRequest="22" />
+                                            <Label x:Name="homeL" Text="&#x2022;" FontSize="20" FontFamily="cBold" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                    </StackLayout>
+
+                                    <StackLayout Grid.Column="1" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,90,0">
+                                        <Image Source="save.png" WidthRequest="22" HeightRequest="22" />
+                                    </StackLayout>
+
+                                    <StackLayout Grid.Column="2" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="90,0,0,0">
+                                        <Image x:Name="mapB" Source="map.png" WidthRequest="22" HeightRequest="22" />
+                                  
+                                    </StackLayout>
+
+                                    <StackLayout Grid.Column="3" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,0,25,0">
+                                        <Image Source="user.png" WidthRequest="22" HeightRequest="22" />
+                                       
+                                    </StackLayout>
+                            </Grid>
+
+                        
+                
+                        
+
+                    </Grid>
+        </ScrollView>
+    
+</ContentPage>
+
