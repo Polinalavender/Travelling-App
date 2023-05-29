@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Travelling-App\DbWork\DbWork\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-29T08:09:24.581</Modified>
+      <Modified>2023-05-29T09:00:49.249</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Travelling-App\DbWork\DbWork\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-29T08:09:24.269</Modified>
+      <Modified>2023-05-29T09:00:48.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Travelling-App\DbWork\DbWork\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\DbWork.runtimeconfig.json">
       <PackagePath>DbWork.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Travelling-App\DbWork\DbWork\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\DbWork.dll">
       <PackagePath>DbWork.dll</PackagePath>
-      <Modified>2023-05-29T08:09:23.409</Modified>
+      <Modified>2023-05-29T09:00:47.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Travelling-App\DbWork\DbWork\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DbWork.exe</PackagePath>
-      <Modified>2023-05-29T08:09:23.482</Modified>
+      <Modified>2023-05-29T09:00:47.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.2\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -943,7 +943,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Travelling-App\DbWork\DbWork\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\DbWork.deps.json">
       <PackagePath>DbWork.deps.json</PackagePath>
-      <Modified>2023-05-29T08:09:24.488</Modified>
+      <Modified>2023-05-29T09:00:49.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.52\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

@@ -10,19 +10,24 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
+		CounterBtn.Text = App.DataRepository._dbPath;
 
-	}
+    }
 
 	private void OnCounterClicked(object sender, EventArgs e)
 	{
 		App.DataRepository.CreateTable();
-		App.DataRepository.Add(new Trip
+		//App.DataRepository.Add(new Trip
+		//{
+		//	Location = "No"
+		//});
+		App.DataRepository.Add(new User
 		{
-			Location = "No"
+			Username = "YE"
 		});
+		App.DataRepository.Add(new Pin { Name = "OPA" });
 
-
-		CounterBtn.Text = App.DataRepository.GetTripById(1).Location;
+		CounterBtn.Text = App.DataRepository.GetTripById(1).Location + " " + App.DataRepository.GetUserById(1).Username + " " + App.DataRepository.GetMapPinById(1);
 
 		SemanticScreenReader.Announce(CounterBtn.Text);
 	}
