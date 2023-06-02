@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hFPOLtGodt2QmQTknKGRyt9a11AqWy3aBGcJHZO1RLu/jTkkUKQENL/jsrZGDIWUdEjZ755gHRm6u+pimTwR/w==",
+  "dgSpecHash": "5VUQu/h7SiBdOhsotqaFhurBUAKtwyIEaJgYN0NVUw/8PhRFrvzEgbE9C1zm4dc4kGBr3m5XPUgRgPqEjZo65Q==",
   "success": true,
-  "projectFilePath": "/Users/arian/Desktop/University/pollyHomepage/mauiDesign/mauiDesign/mauiDesign.csproj",
+  "projectFilePath": "/Users/arian/Desktop/Repos/CSharpTwoProj/Travelling-App/pollyHomepage/mauiDesign/mauiDesign/mauiDesign.csproj",
   "expectedPackageFiles": [
     "/Users/arian/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/arian/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",

@@ -4,11 +4,17 @@ obj/Debug/net7.0-android/resizetizer/r/mipmap-mdpi/appicon_background.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-hdpi/appicon_foreground.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-hdpi/appicon.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-hdpi/appicon_background.png
+obj/Debug/net7.0-android/resizetizer/r/drawable/map.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/alert.png
+obj/Debug/net7.0-android/resizetizer/r/drawable/home.png
+obj/Debug/net7.0-android/resizetizer/r/drawable/user.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/search.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/airplane.png
+obj/Debug/net7.0-android/resizetizer/r/drawable/palm.jpeg
+obj/Debug/net7.0-android/resizetizer/r/drawable/bicycle.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/bus.png
 obj/Debug/net7.0-android/resizetizer/r/drawable/rail.png
+obj/Debug/net7.0-android/resizetizer/r/drawable/save.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xxxhdpi/appicon_foreground.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xxxhdpi/appicon.png
 obj/Debug/net7.0-android/resizetizer/r/mipmap-xxxhdpi/appicon_background.png

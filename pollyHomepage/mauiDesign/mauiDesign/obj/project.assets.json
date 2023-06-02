@@ -18450,11 +18450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arian/Desktop/University/pollyHomepage/mauiDesign/mauiDesign/mauiDesign.csproj",
+      "projectUniqueName": "/Users/arian/Desktop/Repos/CSharpTwoProj/Travelling-App/pollyHomepage/mauiDesign/mauiDesign/mauiDesign.csproj",
       "projectName": "mauiDesign",
-      "projectPath": "/Users/arian/Desktop/University/pollyHomepage/mauiDesign/mauiDesign/mauiDesign.csproj",
+      "projectPath": "/Users/arian/Desktop/Repos/CSharpTwoProj/Travelling-App/pollyHomepage/mauiDesign/mauiDesign/mauiDesign.csproj",
       "packagesPath": "/Users/arian/.nuget/packages/",
-      "outputPath": "/Users/arian/Desktop/University/pollyHomepage/mauiDesign/mauiDesign/obj/",
+      "outputPath": "/Users/arian/Desktop/Repos/CSharpTwoProj/Travelling-App/pollyHomepage/mauiDesign/mauiDesign/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

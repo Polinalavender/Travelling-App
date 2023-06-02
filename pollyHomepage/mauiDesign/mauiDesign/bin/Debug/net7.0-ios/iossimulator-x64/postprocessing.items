@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>mauiDesign.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/arian/Desktop/University/pollyHomepage/mauiDesign/mauiDesign/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/arian/Desktop/Repos/CSharpTwoProj/Travelling-App/pollyHomepage/mauiDesign/mauiDesign/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
       <DSymName>mauiDesign.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/arian/Desktop/University/pollyHomepage/mauiDesign/mauiDesign</SourceProjectPath>
+      <SourceProjectPath>/Users/arian/Desktop/Repos/CSharpTwoProj/Travelling-App/pollyHomepage/mauiDesign/mauiDesign</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

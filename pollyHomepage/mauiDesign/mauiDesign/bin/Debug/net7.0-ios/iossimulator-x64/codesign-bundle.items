@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/arian/Desktop/University/pollyHomepage/mauiDesign/mauiDesign</SourceProjectPath>
+      <SourceProjectPath>/Users/arian/Desktop/Repos/CSharpTwoProj/Travelling-App/pollyHomepage/mauiDesign/mauiDesign</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>
