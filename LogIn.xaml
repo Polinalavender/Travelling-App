@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravellingApp.LogIn"           
+             Title="LogIn"
+             BackgroundColor="LightCyan">
+<ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="800" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400" />
+            </Grid.ColumnDefinitions>
+
+
+             <Image Source="topIMG.png"
+                    Margin="-25,-500,10,30"/>
+
+            <Image Source="background.png"
+                   Aspect="AspectFill"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Opacity="0.6"/>
+
+            <StackLayout Padding="20"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+
+                <Label Text="Log in"
+                       FontSize="34"
+                       FontFamily="OnPlatform:SilverQueen-Regular#Silver Queen Regular;"
+                       TextColor="#000000"
+                       FontAttributes="Bold"
+                       HorizontalOptions="CenterAndExpand"
+                       Margin="0,100,0,0" />
+
+                <StackLayout Margin="0,30,0,0">
+                    <Label Text="Username"
+                           FontSize="18"
+                           TextColor="Black"
+                           HorizontalOptions="Center" />
+
+                    <Frame Padding="0"
+                           HeightRequest="50"
+                           WidthRequest="350"
+                           CornerRadius="20"
+                           Margin="7"
+                           BackgroundColor="Transparent"
+                           BorderColor="#000000">
+                        <Entry x:Name="usernameEntry"
+                               TextColor="Black"
+                               FontSize="18"
+                               Keyboard="Email"
+                               ReturnType="Next"
+                               HorizontalOptions="FillAndExpand" />
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout Margin="0,30,0,0">
+                    <Label Text="Password"
+                           FontSize="18"
+                           TextColor="Black"
+                           HorizontalOptions="Center" />
+
+                    <Frame Padding="0"
+                           HeightRequest="50"
+                           WidthRequest="350"
+                           CornerRadius="20"
+                           Margin="7"
+                           BackgroundColor="Transparent"
+                           BorderColor="#000000">
+                        <Entry x:Name="passwordEntry"
+                               TextColor="Black"
+                               FontSize="18"
+                               Keyboard="Email"
+                               ReturnType="Next"
+                               IsPassword="True"
+                               HorizontalOptions="FillAndExpand" />
+                    </Frame>
+                </StackLayout>
+
+                <!-- Other controls here -->
+
+                <Button Text="Sign in"
+                        Clicked="OnLoginButtonClicked"
+                        TextColor="#FFFFFF"
+                        BackgroundColor="#000000"
+                        Margin="0,40,0,0"
+                        CornerRadius="20"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        HeightRequest="40"
+                        WidthRequest="130"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        BindingContext="{x:Reference this}"
+                        IsEnabled="{Binding IsFormValid}" />
+
+                <BoxView BackgroundColor="#FFFFFF"
+                         HeightRequest="1"
+                         WidthRequest="1"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand"
+                         Opacity="0.2" />
+
+                <Label Text="Don't have an account?"
+                       FontSize="16"
+                       TextColor="Black"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand"
+                       Margin="0,10,0,0">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnSignUpLabelTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravellingApp.MainPage"
+              Title="MainPage"
+             BackgroundColor="#C4E5FE">
+
+  <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="800" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" />
+        </Grid.ColumnDefinitions>
+
+       <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+    <Grid WidthRequest="400" HeightRequest="350" Margin="0,-700,0,0">
+        <Frame CornerRadius="30" BackgroundColor="#8DB6D6">
+            <StackLayout Padding="20" VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView BackgroundColor="Transparent" WidthRequest="50" HeightRequest="50" CornerRadius="25" Margin="0,0,15,0"/>
+                    <Label Text="Welcome back, user!"
+                           FontSize="24"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center" />
+                </StackLayout>
+                <SearchBar Placeholder="Search"
+                           HorizontalOptions="Center"
+                           Margin="0,30,0,-160"
+                           BackgroundColor="#8DB6D6"/>
+            </StackLayout>
+        </Frame>
+    </Grid>
+</StackLayout>
+
+       <StackLayout Orientation="Horizontal" Spacing="50" Grid.Row="2" Grid.ColumnSpan="3" HorizontalOptions="Center" Margin="0,250,0,0">                      
+    <StackLayout>
+        <Button x:Name="forYouB" Text="For You" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" Background="Transparent" Clicked="forYouBC"/>
+        <Label x:Name="forYouL" Text="&#x2022;" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" HorizontalOptions="Center" IsVisible="true"/>
+    </StackLayout>
+    <StackLayout>
+        <Button x:Name="mViewedB" Text="Most viewed" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" Background="Transparent" Clicked="mViewedBC"/>
+        <Label x:Name="mViewedL" Text="&#x2022;" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" HorizontalOptions="Center" IsVisible="true"/>
+    </StackLayout>
+    <StackLayout>
+        <Button x:Name="allB" Text="All" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" Background="Transparent" Clicked="allBC"/>
+        <Label x:Name="allL" Text="&#x2022;" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" HorizontalOptions="Center" IsVisible="true"/>
+    </StackLayout>                         
+</StackLayout>
+
+
+
+
+        <ScrollView Orientation="Horizontal">
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+        <Grid WidthRequest="170" HeightRequest="270" Margin="20,30,0,-100">
+            <Frame BackgroundColor="#8DB6D6">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                    
+                </StackLayout>
+            </Frame>
+        </Grid>
+
+        <Grid WidthRequest="170" HeightRequest="270" Margin="20,30,10,-100">
+            <Frame BackgroundColor="#8DB6D6">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                    
+                </StackLayout>
+            </Frame>
+        </Grid>
+
+        <Grid WidthRequest="170" HeightRequest="270" Margin="20,30,0,-100">
+            <Frame BackgroundColor="#8DB6D6">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                    
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </StackLayout>
+</ScrollView>
+
+        <Grid WidthRequest="500" HeightRequest="110" Margin="0,600,0,0">
+    <Frame BackgroundColor="#8DB6D6">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+            <Image Source="home1.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnHomeImageTapped" />
+                </Image.GestureRecognizers>
+            </Image>
+            
+            <Image Source="saved.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnSavedImageTapped" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="map.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnMapImageTapped" />
+                </Image.GestureRecognizers>
+            </Image>
+            <Image Source="account.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnAccountImageTapped" />
+                </Image.GestureRecognizers>
+            </Image>
+        </StackLayout>
+    </Frame>
+</Grid>
+
+
+    </Grid>
+</ContentPage>
+
+
