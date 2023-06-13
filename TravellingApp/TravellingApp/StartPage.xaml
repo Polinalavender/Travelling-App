@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              x:Class="TravellingApp.StartPage"
+             Title="StartPage"
+             BackgroundColor="#C4E5FE">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="800" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="400" />
+            </Grid.ColumnDefinitions>
+
+
+            <StackLayout Padding="5"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+
+                <Label Text="Explore
+                       the world
+                       with us!"
+                       FontSize="45"
+                       FontFamily="OnPlatform:SilverQueen-Regular#Silver Queen Regular;"
+                       TextColor="#000000"
+                       HorizontalOptions="Center"
+                       Margin="70,60,0,100" />
+                        
+                    
+                <Button Text="Go"
+
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Clicked="OnButtonClicked" 
+                        CornerRadius="20"
+                        BackgroundColor="#7EB3DB"
+                        TextColor="White"
+                        FontSize="30"
+                        WidthRequest="70"
+                        HeightRequest="40"
+                        Margin="0,-90,-150,0"/>
+
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Grid WidthRequest="220" HeightRequest="370" Margin="-36,90,20,140">
+                        <Frame CornerRadius="30" BackgroundColor="#e2725b">
+                        <Image Source="image2.jpg" Aspect="AspectFill" />
+                        </Frame>
+                    </Grid>
+                    <Grid WidthRequest="200" HeightRequest="360" Margin="0,0,0,180">
+                        <Frame CornerRadius="30" BackgroundColor="#94b0da">
+                        <Image Source="image1.jpg" Aspect="AspectFill" />
+                        </Frame>
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
