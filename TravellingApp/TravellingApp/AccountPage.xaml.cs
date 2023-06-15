@@ -43,4 +43,9 @@ public partial class AccountPage : ContentPage
             FollowButton.BackgroundColor = Color.Blue; 
         }*/
     }
+    private void NewPostTapped(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new NewPostPage());
+    }
+    
 }

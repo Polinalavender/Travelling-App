@@ -18450,11 +18450,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/polinaive/Projects/TravellingApp/TravellingApp/TravellingApp.csproj",
+      "projectUniqueName": "/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/TravellingApp.csproj",
       "projectName": "TravellingApp",
-      "projectPath": "/Users/polinaive/Projects/TravellingApp/TravellingApp/TravellingApp.csproj",
+      "projectPath": "/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/TravellingApp.csproj",
       "packagesPath": "/Users/polinaive/.nuget/packages/",
-      "outputPath": "/Users/polinaive/Projects/TravellingApp/TravellingApp/obj/",
+      "outputPath": "/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

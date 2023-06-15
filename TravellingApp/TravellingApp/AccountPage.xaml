@@ -103,7 +103,7 @@
                     </Image>
                     <Image Source="add.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="5,5">
                         <Image.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="OnAccountImageTapped" />
+                            <TapGestureRecognizer Tapped="NewPostTapped" />
                         </Image.GestureRecognizers>
                     </Image>
                     <Image Source="mapWhite.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="5,5">
