@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravellingApp.AccountPage"
+             Title="AccountPage"
+             BackgroundColor="#8DB6D6">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="800" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" />
+        </Grid.ColumnDefinitions>
+
+       <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+    <Grid WidthRequest="400" HeightRequest="730" Margin="0,180,0,0">
+        <Frame CornerRadius="30" BackgroundColor="white">
+            <StackLayout Padding="10" VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal" TranslationY="-320">
+                    <BoxView BackgroundColor="Transparent" WidthRequest="50" HeightRequest="50" CornerRadius="25" Margin="0,0,10,0"/>
+                    <Label Text="Welcome back, user!"
+                           FontSize="22"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center" />
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+    </Grid>
+</StackLayout>
+ <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Lives in"
+               FontSize="18"
+               HorizontalOptions="Start"
+               VerticalOptions="Center"
+               Margin="-170,-350,0,0" />
+    </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Spacing="100">
+             <Label Text="followers"
+               FontSize="18"
+               HorizontalOptions="Start"
+               VerticalOptions="Center"
+               Margin="0,-270,5,0" />
+             <Button Text="follow"
+                FontSize="18"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                WidthRequest="110"
+                HeightRequest="10"
+                Margin="5,-270,0,0"
+                BackgroundColor="#8DB6D6"
+                Clicked="OnFollowButtonClicked" />
+</StackLayout>
+
+        <StackLayout Orientation="Horizontal" Spacing="50" Grid.Row="2" Grid.ColumnSpan="3" HorizontalOptions="Center" Margin="0,300,0,0">
+            <StackLayout>
+                <Button x:Name="forYouB" Text="Photos" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" Background="Transparent"/>
+                <Label x:Name="forYouL" Text="&#x2022;" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" HorizontalOptions="Center" IsVisible="true"/>
+            </StackLayout>
+            <StackLayout>
+                <Button x:Name="mViewedB" Text="My Trips" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" Background="Transparent"/>
+                <Label x:Name="mViewedL" Text="&#x2022;" FontSize="20" FontFamily="cBold" TextColor="#4D94CC" HorizontalOptions="Center" IsVisible="true"/>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.ColumnSpan="3" HorizontalOptions="Center" Margin="0,370,0,0">
+         <Grid HorizontalOptions="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Frame Grid.Row="0" Grid.Column="0" BackgroundColor="#E6E6E6" CornerRadius="5" WidthRequest="100" HeightRequest="100" Margin="15"/>
+        <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="#E6E6E6" CornerRadius="5" WidthRequest="100" HeightRequest="100" Margin="15"/>
+        <Frame Grid.Row="1" Grid.Column="0" BackgroundColor="#E6E6E6" CornerRadius="5" WidthRequest="100" HeightRequest="100" Margin="15"/>
+        <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="#E6E6E6" CornerRadius="5" WidthRequest="100" HeightRequest="100" Margin="15"/>
+    </Grid>
+</StackLayout>
+
+
+
+
+
+        <Grid WidthRequest="500" HeightRequest="110" Margin="0,600,0,0">
+            <Frame BackgroundColor="white">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                    <Image Source="homeWhite.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="5,5">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnHomeImageTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+
+                    <Image Source="savedWhite.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="5,5">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSavedImageTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="add.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="5,5">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="NewPostTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="mapWhite.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="5,5">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnMapImageTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Image Source="accountWhite.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="5,5">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnAccountImageTapped" />
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+            </Frame>
+        </Grid>
+
+    </Grid>
+</ContentPage>

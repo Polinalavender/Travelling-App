@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravellingApp.NewPostPage"
+             Title="NewPostPage"
+             BackgroundColor="#C4E5FE">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" HorizontalOptions="CenterAndExpand" Margin="0,30">
+            <Label Text="New Post"
+                   FontSize="32"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center" />
+        </StackLayout>
+<ScrollView Grid.Row="1">
+    <StackLayout Padding="20">
+        <Label Text="Share about your journey"
+               FontSize="20"
+               FontAttributes="Bold"
+               Margin="0,20,0,10" />
+
+        <Frame BackgroundColor="White"
+               CornerRadius="10"
+               Padding="0"
+               Margin="0,0,0,20">
+
+            <Editor x:Name="postEditor"
+                    HeightRequest="200"
+                    BackgroundColor="Transparent"
+                    FontSize="16"
+                    Placeholder="Start typing here..."
+                    Margin="0" />
+        </Frame>
+
+        <Button Text="Add Photo"
+                FontSize="20"
+                FontAttributes="Bold"
+                BackgroundColor="#8DB6D6"
+                TextColor="White"
+                HorizontalOptions="Start"
+                Clicked="OnAddPhotoButtonClicked"
+                Margin="0,0,0,20" />
+
+        <Button Text="Post"
+                FontSize="20"
+                FontAttributes="Bold"
+                BackgroundColor="#8DB6D6"
+                TextColor="White"
+                HorizontalOptions="FillAndExpand"
+                Clicked="OnPublishButtonClicked" />
+    </StackLayout>
+</ScrollView>
+
+        <StackLayout Grid.Row="2" HorizontalOptions="CenterAndExpand" VerticalOptions="End" Margin="-40">
+            <Grid WidthRequest="500" HeightRequest="110">
+                <Frame BackgroundColor="#8DB6D6">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
+                        <Image Source="home1.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnHomeImageTapped" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Image Source="saved.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnSavedImageTapped" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Image Source="map.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnMapImageTapped" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Image Source="account.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnAccountImageTapped" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </StackLayout>
+
+                </Frame>
+            </Grid>
+        </StackLayout>
+    </Grid>
+</ContentPage>

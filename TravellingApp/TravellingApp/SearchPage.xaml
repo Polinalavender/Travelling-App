@@ -1,0 +1,58 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravellingApp.SearchPage"
+             Title="Search"
+             BackgroundColor="#C4E5FE">
+    <StackLayout>
+        <StackLayout HeightRequest="80" Padding="40">
+            <Label Text="Explore"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   TextColor="Black" />
+        </StackLayout>
+
+            <SearchBar x:Name="searchBar"
+                       SearchButtonPressed="OnSearchButtonPressed"
+                       BackgroundColor="#C4E5FE"
+                       Margin="20"
+                       HeightRequest="200"
+                       WidthRequest="300"
+                       Placeholder="Search for your journey"/>
+             <CollectionView x:Name="searchResults"
+                        SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Image Source="{Binding ImageUrl}"
+                               WidthRequest="80"
+                               HeightRequest="80"
+                               Aspect="AspectFill"
+                               Grid.Column="0" />
+                        <StackLayout Grid.Column="1"
+                                     VerticalOptions="Center">
+                            <Label Text="{Binding Name}"
+                                   FontSize="18"
+                                   FontAttributes="Bold"
+                                   TextColor="Black" />
+                            <Label Text="{Binding Location}"
+                                   FontSize="14"
+                                   TextColor="Gray" />
+                            <Label Text="{Binding Price}"
+                                   FontSize="16"
+                                   FontAttributes="Bold"
+                                   TextColor="Black" />
+                        </StackLayout>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+      
+    </StackLayout>
+</ContentPage>
+

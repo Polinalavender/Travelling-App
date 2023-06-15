@@ -1,0 +1,50 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravellingApp.LocationPage"
+             Title="LocationPage"
+             BackgroundColor="#C4E5FE">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Frame WidthRequest="300" Grid.Row="0" BackgroundColor="#8DB6D6" Margin="25" Padding="200">
+            <Grid>
+                <!-- Paste image from db -->
+            </Grid>
+        </Frame>
+
+        <Frame HeightRequest="50" WidthRequest="300" Grid.Row="1" BackgroundColor="#8DB6D6" Margin="5" Padding="10">
+    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Spacing="10">
+        <Label Text="Time" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+        <Label Text="Rating" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" />
+    </StackLayout>
+</Frame>
+
+
+        <Frame HeightRequest="100" Grid.Row="2" BackgroundColor="#8DB6D6" WidthRequest="300" Margin="10" Padding="10">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Text="Travel Members" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" />
+        <Button Text="Join" BackgroundColor="Black" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Margin="20" />
+
+    </Grid>
+</Frame>
+        <Button Grid.Row="3" FontAttributes="Bold" FontSize="28" Text="Booking" BackgroundColor="#8DB6D6" Margin="5" WidthRequest="300" HeightRequest="70" />
+    </Grid>
+</ContentPage>

@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{8101F894-0365-4D9D-9807-307B1F08ADA2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TravellingApp/MainPage.xaml">
+    <Files>
+      <File FileName="TravellingApp/MainPage.xaml" Line="80" Column="19" />
+      <File FileName="TravellingApp/MainPage.xaml.cs" Line="56" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TravellingApp" expanded="True">
+            <Node name="TravellingApp" expanded="True">
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+              </Node>
+              <Node name="MainPage.xaml" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.72B8A272-5048-4977-AA19-11EE39F9F591" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TravellingApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.72B8A272-5048-4977-AA19-11EE39F9F591" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
