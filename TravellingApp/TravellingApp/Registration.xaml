@@ -14,10 +14,10 @@
                 <ColumnDefinition Width="400" />
             </Grid.ColumnDefinitions>
 
-            <Image Source="topIMG.png"
+            <Image Source="assets/topIMG.png"
                    Margin="-25,-500,10,30"/>
 
-            <Image Source="background.png"
+            <Image Source="assets/background.png"
                    Aspect="AspectFill"
                    Grid.Row="0"
                    Grid.Column="0"

@@ -18,23 +18,23 @@
      <Grid WidthRequest="500" HeightRequest="110" Margin="0,600,0,0">
     <Frame BackgroundColor="#8DB6D6">
         <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" VerticalOptions="Center">
-            <Image Source="home.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
+            <Image Source="assets/home.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnHomeImageTapped" />
                 </Image.GestureRecognizers>
             </Image>
             
-            <Image Source="saved.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
+            <Image Source="assets/saved.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnSavedImageTapped" />
                 </Image.GestureRecognizers>
             </Image>
-            <Image Source="map1.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
+            <Image Source="assets/map1.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnMapImageTapped" />
                 </Image.GestureRecognizers>
             </Image>
-            <Image Source="account.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
+            <Image Source="assets/account.png" Aspect="AspectFill" WidthRequest="70" HeightRequest="70" Margin="10,5">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnAccountImageTapped" />
                 </Image.GestureRecognizers>

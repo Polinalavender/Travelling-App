@@ -45,12 +45,12 @@
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
                     <Grid WidthRequest="220" HeightRequest="370" Margin="-36,90,20,140">
                         <Frame CornerRadius="30" BackgroundColor="#e2725b">
-                        <Image Source="image2.jpg" Aspect="AspectFill" />
+                        <Image Source="assets/image2.jpg" Aspect="AspectFill" />
                         </Frame>
                     </Grid>
                     <Grid WidthRequest="200" HeightRequest="360" Margin="0,0,0,180">
                         <Frame CornerRadius="30" BackgroundColor="#94b0da">
-                        <Image Source="image1.jpg" Aspect="AspectFill" />
+                        <Image Source="assets/image1.jpg" Aspect="AspectFill" />
                         </Frame>
                     </Grid>
                 </StackLayout>
