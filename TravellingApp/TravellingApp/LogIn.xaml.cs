@@ -1,5 +1,5 @@
 ﻿namespace TravellingApp;
-
+using TravellingApp.Model;
 public partial class LogIn : ContentPage
 {
 	public LogIn()
@@ -9,17 +9,20 @@ public partial class LogIn : ContentPage
 
     private void OnLoginButtonClicked(object sender, EventArgs e)
     {
+        App.DataRepository.Add(new User { Username = "admin", Password = "pw" });
         string username = usernameEntry.Text;
         string password = passwordEntry.Text;
 
-        if (AuthenticateUser(username, password))
+        if (username != "" && password != "")
         {
-            // Navigate to the next page in your app
-            Navigation.PushAsync(new MainPage());
-        }
-        else
-        {
-            DisplayAlert("Login Failed", "Invalid username or password", "OK");
+            if(App.DataRepository.GetUserByName(username).Password == password)
+            {
+                Navigation.PushAsync(new MainPage());
+            }
+            else
+            {
+                DisplayAlert("Login Failed", "Invalid username or password", "OK");
+            }
         }
     }
 
