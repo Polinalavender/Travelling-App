@@ -92,11 +92,7 @@
                         FontAttributes="Bold"
                         FontSize="20"
                         HeightRequest="40"
-                        WidthRequest="130"
-                        VerticalOptions="CenterAndExpand"
-                        HorizontalOptions="FillAndExpand"
-                        BindingContext="{x:Reference this}"
-                        IsEnabled="{Binding IsFormValid}" />
+                        WidthRequest="130"/>
 
                 <BoxView BackgroundColor="#FFFFFF"
                          HeightRequest="1"
@@ -106,6 +102,7 @@
                          Opacity="0.2" />
 
                 <Label Text="Don't have an account?"
+                       x:Name ="amogus"
                        FontSize="16"
                        TextColor="Black"
                        VerticalOptions="CenterAndExpand"

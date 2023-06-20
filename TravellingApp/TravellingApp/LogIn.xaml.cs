@@ -5,7 +5,9 @@ public partial class LogIn : ContentPage
 	public LogIn()
 	{
 		InitializeComponent();
-	}
+        amogus.Text = App.DataRepository._dbPath;
+
+    }
 
     private void OnLoginButtonClicked(object sender, EventArgs e)
     {
@@ -15,9 +17,16 @@ public partial class LogIn : ContentPage
 
         if (username != "" && password != "")
         {
-            if(App.DataRepository.GetUserByName(username).Password == password)
+            if (App.DataRepository.GetUserByName(username) != null)
             {
-                Navigation.PushAsync(new MainPage());
+                if (App.DataRepository.GetUserByName(username).Password == password)
+                {
+                    Navigation.PushAsync(new MainPage());
+                }
+                else
+                {
+                    DisplayAlert("Login Failed", "Invalid username or password", "OK");
+                }
             }
             else
             {
