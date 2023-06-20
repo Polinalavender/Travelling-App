@@ -78,7 +78,4 @@
 	  <BundleResource Include="map1.png" />
 	  <BundleResource Include="saved.png" />
 	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="Database\" />
-	</ItemGroup>
 </Project>

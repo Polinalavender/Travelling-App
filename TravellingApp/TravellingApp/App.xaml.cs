@@ -1,5 +1,6 @@
 ﻿namespace TravellingApp;
 using TravellingApp.Data;
+using TravellingApp.Model;
 
 public partial class App : Application
 {
@@ -12,6 +13,7 @@ public partial class App : Application
 
 		DataRepository = dataRepository;
 		DataRepository.CreateTables();
-	}
+        App.DataRepository.Add(new User { Username = "admin", Password = "pw" });
+    }
 }
 

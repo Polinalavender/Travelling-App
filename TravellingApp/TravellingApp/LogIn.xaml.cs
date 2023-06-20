@@ -9,7 +9,7 @@ public partial class LogIn : ContentPage
 
     private void OnLoginButtonClicked(object sender, EventArgs e)
     {
-        App.DataRepository.Add(new User { Username = "admin", Password = "pw" });
+        
         string username = usernameEntry.Text;
         string password = passwordEntry.Text;
 
@@ -24,8 +24,8 @@ public partial class LogIn : ContentPage
                 DisplayAlert("Login Failed", "Invalid username or password", "OK");
             }
         }
+        
     }
-
     private bool AuthenticateUser(string username, string password)
     {
         // Authenticate the user's credentials here

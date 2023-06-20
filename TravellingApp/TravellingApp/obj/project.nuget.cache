@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Uhz4YfrpqC5oG62+2REtJdYJdrB/on9EAeWD8ns9Eq1UefYxhLjSx+6K5HR2jsHELjw7KmAkSa+R7MGq7GdGUQ==",
+  "dgSpecHash": "GowQA5xX2YWxwBMK8zcTaDQd/OJSb2nSbjlxP5Idw3vPikm9JNN0B9MQYmahNy/MCmkWGv8RljOwcLUS5J/EQw==",
   "success": true,
   "projectFilePath": "D:\\Travelling-App\\TravellingApp\\TravellingApp\\TravellingApp.csproj",
   "expectedPackageFiles": [
@@ -15,10 +15,10 @@
     "C:\\Users\\voras\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\voras\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\voras\\.nuget\\packages\\microsoft.graphics.win2d\\1.0.4\\microsoft.graphics.win2d.1.0.4.nupkg.sha512",
-    "C:\\Users\\voras\\.nuget\\packages\\microsoft.maui.graphics\\7.0.52\\microsoft.maui.graphics.7.0.52.nupkg.sha512",
-    "C:\\Users\\voras\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.52\\microsoft.maui.graphics.win2d.winui.desktop.7.0.52.nupkg.sha512",
+    "C:\\Users\\voras\\.nuget\\packages\\microsoft.maui.graphics\\7.0.86\\microsoft.maui.graphics.7.0.86.nupkg.sha512",
+    "C:\\Users\\voras\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.86\\microsoft.maui.graphics.win2d.winui.desktop.7.0.86.nupkg.sha512",
     "C:\\Users\\voras\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
-    "C:\\Users\\voras\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221109.1\\microsoft.windowsappsdk.1.2.221109.1.nupkg.sha512",
+    "C:\\Users\\voras\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221209.1\\microsoft.windowsappsdk.1.2.221209.1.nupkg.sha512",
     "C:\\Users\\voras\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\voras\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\voras\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
@@ -111,9 +111,9 @@
     "C:\\Users\\voras\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.4.1\\xamarin.kotlinx.coroutines.android.1.6.4.1.nupkg.sha512",
     "C:\\Users\\voras\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.4.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.4.1.nupkg.sha512",
     "C:\\Users\\voras\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.28\\microsoft.windows.sdk.net.ref.10.0.19041.28.nupkg.sha512",
-    "C:\\Users\\voras\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.2\\microsoft.aspnetcore.app.runtime.win-x64.7.0.2.nupkg.sha512",
-    "C:\\Users\\voras\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.2\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.2.nupkg.sha512",
-    "C:\\Users\\voras\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.2\\microsoft.netcore.app.runtime.win-x64.7.0.2.nupkg.sha512"
+    "C:\\Users\\voras\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.7\\microsoft.aspnetcore.app.runtime.win-x64.7.0.7.nupkg.sha512",
+    "C:\\Users\\voras\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.7\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.7.nupkg.sha512",
+    "C:\\Users\\voras\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.7\\microsoft.netcore.app.runtime.win-x64.7.0.7.nupkg.sha512"
   ],
   "logs": []
 }

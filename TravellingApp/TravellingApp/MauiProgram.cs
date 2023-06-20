@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
-
+using TravellingApp.Data;
 namespace TravellingApp;
 
 public static class MauiProgram
@@ -15,11 +15,11 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-#if DEBUG
-		builder.Logging.AddDebug();
-#endif
+        string dbPath = Path.Combine(FileSystem.AppDataDirectory, "appDb.db");
 
-		return builder.Build();
+        builder.Services.AddSingleton<DataRepo>(s => ActivatorUtilities.CreateInstance<DataRepo>(s, dbPath));
+
+        return builder.Build();
 	}
 }
 
