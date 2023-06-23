@@ -14,7 +14,7 @@
 		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
-		iEtuUGCV6JM3gxS/pO33swhmpp8=
+		keAf4g1EpTxfA90nvczfcHgsYzY=
 		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -35,6 +35,10 @@
 		<key>Resources/appicon.icns</key>
 		<data>
 		L9cHAOVSlaW2jMaBgy7GlIBZdZg=
+		</data>
+		<key>Resources/assets/account.png</key>
+		<data>
+		i+1acXI4o5wJGOocjAi2aGMJmTg=
 		</data>
 		<key>Resources/background.png</key>
 		<data>
@@ -228,6 +232,41 @@
 			<key>hash2</key>
 			<data>
 			qYPzNfleSCvcnHUqpXjpupdF+jwRT3KdMBpFhNKxVGU=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLite-net.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G0Du6FIHrGQku+Pmrey48gKNhArHSSzdTDxdZdMFkb4=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.batteries_v2.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CfW9YSGfunnLgdH6QG8jwazapaObRUXq87nPs7OG2sU=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yRcyT6bqHwOGzBQK2R/Pq5DiOF0McLYibBg0/tELlzI=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.nativelibrary.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k6kuHu1PdUyKSs86EqhbgqnTWUwFcJhnu6p9u0PbP/k=
+			</data>
+		</dict>
+		<key>MonoBundle/SQLitePCLRaw.provider.dynamic_cdecl.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RlKEwOHpxJVVOfepV31LUzLidIEBdD+JNMaY+mJgmRE=
 			</data>
 		</dict>
 		<key>MonoBundle/System.AppContext.dll</key>
@@ -1361,14 +1400,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PSQWh36gjjJH7Eqz6VCmhI4oVCT9hr5uHa2AOCDjGiE=
+			+JBDQi+QYpX9QYe7E2kRiQDkfJx54ScM5lhjnRZB//0=
 			</data>
 		</dict>
 		<key>MonoBundle/TravellingApp.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hi8X0Pe501ajs5KFh3xKXh/fHdT+qn/ArV/pWIdvUII=
+			7aY3fFRK2mjQ8kIN8vJpw92ju0tIuQJywigHG4WukRc=
 			</data>
 		</dict>
 		<key>MonoBundle/WindowsBase.dll</key>
@@ -1466,7 +1505,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
+			Tb/3x7baGCAU6ljR4f2xRbkz5iymNz8wOMo17AXbyLE=
 			</data>
 		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
@@ -1502,6 +1541,13 @@
 			<key>hash2</key>
 			<data>
 			H4w+DqGNITnXOEy4UxkSBph9BjGxHf/ui2zq6lzv5a0=
+			</data>
+		</dict>
+		<key>Resources/assets/account.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Uz12BSNxCHlsJnMwvUkKy9jjUyu3aUpJpBKQkdfGXpM=
 			</data>
 		</dict>
 		<key>Resources/background.png</key>

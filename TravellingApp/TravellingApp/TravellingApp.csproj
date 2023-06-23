@@ -57,25 +57,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="account.png" />
-	  <None Remove="background.png" />
-	  <None Remove="home1.png" />
-	  <None Remove="image1.jpg" />
-	  <None Remove="image2.jpg" />
-	  <None Remove="home.png" />
-	  <None Remove="map.png" />
-	  <None Remove="map1.png" />
-	  <None Remove="saved.png" />
+	  <None Remove="assets\account.png" />
 	</ItemGroup>
 	<ItemGroup>
-	  <BundleResource Include="account.png" />
-	  <BundleResource Include="background.png" />
-	  <BundleResource Include="home1.png" />
-	  <BundleResource Include="image1.jpg" />
-	  <BundleResource Include="image2.jpg" />
-	  <BundleResource Include="home.png" />
-	  <BundleResource Include="map.png" />
-	  <BundleResource Include="map1.png" />
-	  <BundleResource Include="saved.png" />
+	  <BundleResource Include="assets\account.png" />
 	</ItemGroup>
 </Project>

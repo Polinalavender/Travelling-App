@@ -1,23 +1,63 @@
-﻿namespace TravellingApp;
+﻿using System;
+using TravellingApp.Model;
+using System.Security.Cryptography;
 
-
-public partial class Registration : ContentPage
+namespace TravellingApp
 {
-	public Registration()
-	{
-		InitializeComponent();
-	}
-
-    private void OnSignUpButtonClicked(object sender, EventArgs e)
+    public partial class Registration : ContentPage
     {
-        // Handle sign up button click logic here
-        Navigation.PushAsync(new MainPage());
+        public Registration()
+        {
+            InitializeComponent();
+        }
 
-    }
+        private void OnSignUpButtonClicked(object sender, EventArgs e)
+        {
+            string email = emailEntry.Text;
+            string username = usernameEntry.Text;
+            string password = passwordEntry.Text;
+            string confirmPassword = passwordConfirmEntry.Text;
 
-    private async void OnSignInTapped(object sender, EventArgs e)
-    {
-        await Navigation.PushAsync(new LogIn());
+            // Perform validation checks here (e.g., password matching, required fields)
+
+            if (!string.IsNullOrWhiteSpace(email) &&
+                !string.IsNullOrWhiteSpace(username) &&
+                !string.IsNullOrWhiteSpace(password) &&
+                !string.IsNullOrWhiteSpace(confirmPassword))
+            {
+                if (password == confirmPassword)
+                {
+                    UserService userService = new UserService();
+
+                    // Hash the password
+                    string hashedPassword = PasswordHasher.HashPassword(password);
+
+                    bool isRegistered = userService.RegisterUser(username, hashedPassword);
+
+                    if (isRegistered)
+                    {
+                        // User registration successful
+                        MainPage mainPage = new MainPage();
+                        Navigation.PushAsync(mainPage);
+                    }
+                    else
+                    {
+                        // User registration failed (username already taken)
+                        DisplayAlert("Registration Failed", "Username already exists. Please choose a different username.", "OK");
+                    }
+                }
+                else
+                {
+                    // Passwords do not match
+                    DisplayAlert("Registration Failed", "Passwords do not match. Please re-enter your password.", "OK");
+                }
+            }
+            else
+            {
+                // Required fields are missing
+                DisplayAlert("Registration Failed", "Please fill in all the required fields.", "OK");
+            }
+        }
+
     }
 }
-

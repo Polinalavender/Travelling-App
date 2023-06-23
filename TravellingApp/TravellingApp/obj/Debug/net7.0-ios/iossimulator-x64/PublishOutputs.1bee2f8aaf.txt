@@ -9,6 +9,11 @@
 /Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../TravellingApp.app/Microsoft.Extensions.Options.dll
 /Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../TravellingApp.app/Microsoft.Extensions.Primitives.dll
 /Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../TravellingApp.app/Microsoft.Maui.Graphics.dll
+/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../TravellingApp.app/SQLite-net.dll
+/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../TravellingApp.app/SQLitePCLRaw.batteries_v2.dll
+/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../TravellingApp.app/SQLitePCLRaw.nativelibrary.dll
+/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../TravellingApp.app/SQLitePCLRaw.core.dll
+/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../TravellingApp.app/SQLitePCLRaw.provider.dynamic_cdecl.dll
 /Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../TravellingApp.app/TravellingApp.dll
 /Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../TravellingApp.app/Microsoft.CSharp.dll
 /Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/bin/Debug/net7.0-ios/iossimulator-x64/publish/../TravellingApp.app/Microsoft.VisualBasic.Core.dll
