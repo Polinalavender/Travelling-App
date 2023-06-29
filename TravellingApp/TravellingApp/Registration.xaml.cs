@@ -1,6 +1,8 @@
 ﻿using System;
 using TravellingApp.Model;
 using System.Security.Cryptography;
+using TravellingApp.Services;
+using Microsoft.AspNetCore.Identity;
 
 namespace TravellingApp
 {
@@ -27,14 +29,7 @@ namespace TravellingApp
             {
                 if (password == confirmPassword)
                 {
-                    UserService userService = new UserService();
-
-                    // Hash the password
-                    string hashedPassword = PasswordHasher.HashPassword(password);
-
-                    bool isRegistered = userService.RegisterUser(username, hashedPassword);
-
-                    if (isRegistered)
+                    if(true)
                     {
                         // User registration successful
                         MainPage mainPage = new MainPage();
