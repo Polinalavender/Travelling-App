@@ -111,12 +111,12 @@ namespace TravellingApp.Data
 
             return null;
         }
-        public User GetUserByPassword(string password)
+        public User GetUserByEmail(string email)
         {
             try
             {
                 CreateTables();
-                return conn.Table<User>().FirstOrDefault(t => t.Password == password);
+                return conn.Table<User>().FirstOrDefault(t => t.UserEmail == email);
             }
             catch (Exception ex)
             {
