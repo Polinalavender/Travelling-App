@@ -21,6 +21,7 @@
                 <StackLayout Orientation="Horizontal">
                     <BoxView BackgroundColor="Transparent" WidthRequest="50" HeightRequest="50" CornerRadius="25" Margin="0,10,10,0"/>
                     <Label Text="Welcome back, user!"
+                           x:Name ="userMain"
                            FontSize="24"
                            HorizontalOptions="Start"
                            VerticalOptions="Center" Margin="0,10,0,0"/>

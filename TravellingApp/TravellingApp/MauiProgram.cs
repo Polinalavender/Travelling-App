@@ -1,10 +1,13 @@
 ﻿using Microsoft.Extensions.Logging;
+using System.Security.Cryptography;
+using System.Text;
 using TravellingApp.Data;
+using TravellingApp.Model;
 namespace TravellingApp;
 
 public static class MauiProgram
 {
-	public static MauiApp CreateMauiApp()
+    public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
 		builder

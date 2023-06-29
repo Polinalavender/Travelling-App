@@ -1,11 +1,12 @@
 ﻿namespace TravellingApp;
+
+using Microsoft.Maui.ApplicationModel.Communication;
 using TravellingApp.Model;
 public partial class LogIn : ContentPage
 {
 	public LogIn()
 	{
 		InitializeComponent();
-        amogus.Text = App.DataRepository._dbPath;
 
     }
 
@@ -13,14 +14,19 @@ public partial class LogIn : ContentPage
     {
         
         string username = usernameEntry.Text;
-        string password = passwordEntry.Text;
 
-        if (username != "" && password != "")
+        if (username != "" && passwordEntry.Text != "")
         {
+            string password = App.ComputeHash(passwordEntry.Text);
             if (App.DataRepository.GetUserByName(username) != null)
             {
                 if (App.DataRepository.GetUserByName(username).Password == password)
                 {
+                    App.currentUser = new User
+                    {
+                        Username = username,
+                        UserEmail = App.DataRepository.GetUserByName(username).UserEmail,
+                    };
                     Navigation.PushAsync(new MainPage());
                 }
                 else
@@ -35,21 +41,6 @@ public partial class LogIn : ContentPage
         }
         
     }
-    private bool AuthenticateUser(string username, string password)
-    {
-        // Authenticate the user's credentials here
-        if (username == "admin" && password == "password")
-        {
-            // If the user's credentials are valid, return true
-            return true;
-        }
-        else
-        {
-            // If the user's credentials are invalid, return false
-            return false;
-        }
-    }
-
     private async void OnSignUpLabelTapped(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new Registration());

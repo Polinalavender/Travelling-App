@@ -3,6 +3,7 @@ using TravellingApp.Model;
 using System.Security.Cryptography;
 using TravellingApp.Services;
 using Microsoft.AspNetCore.Identity;
+using TravellingApp;
 
 namespace TravellingApp
 {
@@ -29,9 +30,20 @@ namespace TravellingApp
             {
                 if (password == confirmPassword)
                 {
-                    if(true)
+                    password = App.ComputeHash(password);
+                    if (App.DataRepository.GetUserByName(username) == null)
                     {
-                        // User registration successful
+                        App.DataRepository.Add(new User
+                        {
+                            Username = username,
+                            UserEmail = email,
+                            Password = password
+                        });
+                        App.currentUser = new User
+                        {
+                            Username = username,
+                            UserEmail = email,
+                        };
                         MainPage mainPage = new MainPage();
                         Navigation.PushAsync(mainPage);
                     }
@@ -53,6 +65,5 @@ namespace TravellingApp
                 DisplayAlert("Registration Failed", "Please fill in all the required fields.", "OK");
             }
         }
-
     }
 }

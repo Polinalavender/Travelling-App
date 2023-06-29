@@ -5,7 +5,9 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		InitializeComponent();
-	}
+        userMain.Text = "Welcome back, " + App.currentUser.Username;
+
+    }
 
     private void OnHomeImageTapped(object sender, EventArgs e)
     {

@@ -81,8 +81,6 @@
                     </Frame>
                 </StackLayout>
 
-                <!-- Other controls here -->
-
                 <Button Text="Sign in"
                         Clicked="OnLoginButtonClicked"
                         TextColor="#FFFFFF"
@@ -102,7 +100,6 @@
                          Opacity="0.2" />
 
                 <Label Text="Don't have an account?"
-                       x:Name ="amogus"
                        FontSize="16"
                        TextColor="Black"
                        VerticalOptions="CenterAndExpand"

@@ -13,6 +13,7 @@ namespace TravellingApp.Model
         [PrimaryKey, AutoIncrement, SQLite.Column("Id")]
         public int Id { get; set; }
         public string Username { get; set; }
+        public string UserEmail { get; set; }
         public string Password { get; set; }
         public string ImagePath { get; set; }
     }
