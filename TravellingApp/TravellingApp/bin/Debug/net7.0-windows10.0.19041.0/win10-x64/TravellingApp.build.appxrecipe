@@ -604,6 +604,12 @@
     <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.28\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.aspnetcore.cryptography.internal\7.0.8\lib\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll">
+      <PackagePath>Microsoft.AspNetCore.Cryptography.Internal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.aspnetcore.cryptography.keyderivation\7.0.8\lib\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll">
+      <PackagePath>Microsoft.AspNetCore.Cryptography.KeyDerivation.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.extensions.configuration\7.0.0\lib\net7.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
     </AppxPackagedFile>
@@ -616,6 +622,9 @@
     <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\7.0.0\lib\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.extensions.identity.core\7.0.8\lib\net7.0\Microsoft.Extensions.Identity.Core.dll">
+      <PackagePath>Microsoft.Extensions.Identity.Core.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.extensions.logging\7.0.0\lib\net7.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
     </AppxPackagedFile>
@@ -625,7 +634,7 @@
     <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.extensions.logging.debug\7.0.0\lib\net7.0\Microsoft.Extensions.Logging.Debug.dll">
       <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.extensions.options\7.0.0\lib\net7.0\Microsoft.Extensions.Options.dll">
+    <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.extensions.options\7.0.1\lib\net7.0\Microsoft.Extensions.Options.dll">
       <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.extensions.primitives\7.0.0\lib\net7.0\Microsoft.Extensions.Primitives.dll">
@@ -895,14 +904,14 @@
     <AppxPackagedFile Include="D:\Travelling-App\TravellingApp\TravellingApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Travelling-App\TravellingApp\TravellingApp\Assets\account.png">
+      <PackagePath>Assets\account.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Travelling-App\TravellingApp\TravellingApp\Assets\accountWhite.png">
       <PackagePath>Assets\accountWhite.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Travelling-App\TravellingApp\TravellingApp\Assets\add.png">
       <PackagePath>Assets\add.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Travelling-App\TravellingApp\TravellingApp\Assets\background.png">
-      <PackagePath>Assets\background.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Travelling-App\TravellingApp\TravellingApp\Assets\home.png">
       <PackagePath>Assets\home.png</PackagePath>

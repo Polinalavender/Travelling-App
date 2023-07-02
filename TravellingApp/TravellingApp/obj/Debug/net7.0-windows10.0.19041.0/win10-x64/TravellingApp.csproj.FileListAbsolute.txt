@@ -328,3 +328,6 @@ D:\Travelling-App\TravellingApp\TravellingApp\obj\Debug\net7.0-windows10.0.19041
 D:\Travelling-App\TravellingApp\TravellingApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Travelling-App\TravellingApp\TravellingApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 D:\Travelling-App\TravellingApp\TravellingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.723.27404.dll
+D:\Travelling-App\TravellingApp\TravellingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Travelling-App\TravellingApp\TravellingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Travelling-App\TravellingApp\TravellingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Identity.Core.dll
