@@ -4,11 +4,11 @@
     "includedFrameworks": [
       {
         "name": "Microsoft.NETCore.App",
-        "version": "7.0.5"
+        "version": "7.0.7"
       },
       {
         "name": "Microsoft.iOS",
-        "version": "16.4.7060"
+        "version": "16.4.7067"
       },
       {
         "name": "Microsoft.Maui.Core",

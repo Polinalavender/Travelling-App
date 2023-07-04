@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>TravellingApp.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/arian/Desktop/projectCSharp/Untitled/Travelling-App/TravellingApp/TravellingApp/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
       <DSymName>TravellingApp.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp</SourceProjectPath>
+      <SourceProjectPath>/Users/arian/Desktop/projectCSharp/Untitled/Travelling-App/TravellingApp/TravellingApp</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>
