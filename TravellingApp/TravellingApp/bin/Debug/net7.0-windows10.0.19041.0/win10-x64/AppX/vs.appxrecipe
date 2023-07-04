@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Travelling-App\TravellingApp\TravellingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-03T07:07:05.356</Modified>
+      <Modified>2023-07-04T08:17:10.013</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Travelling-App\TravellingApp\TravellingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-29T11:44:39.262</Modified>
+      <Modified>2023-07-04T08:17:08.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Travelling-App\TravellingApp\TravellingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TravellingApp.runtimeconfig.json">
       <PackagePath>TravellingApp.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Travelling-App\TravellingApp\TravellingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\TravellingApp.dll">
       <PackagePath>TravellingApp.dll</PackagePath>
-      <Modified>2023-06-29T11:44:37.413</Modified>
+      <Modified>2023-07-04T08:17:06.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Travelling-App\TravellingApp\TravellingApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>TravellingApp.exe</PackagePath>
-      <Modified>2023-06-29T11:44:37.534</Modified>
+      <Modified>2023-07-04T08:17:06.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\voras\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.7\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -955,7 +955,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Travelling-App\TravellingApp\TravellingApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\TravellingApp.deps.json">
       <PackagePath>TravellingApp.deps.json</PackagePath>
-      <Modified>2023-07-03T07:07:05.034</Modified>
+      <Modified>2023-07-04T08:17:09.809</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
