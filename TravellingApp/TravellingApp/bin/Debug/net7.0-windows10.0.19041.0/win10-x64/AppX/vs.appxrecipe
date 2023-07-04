@@ -29,7 +29,7 @@
     <AppXManifest Include="D:\Travelling-App\TravellingApp\TravellingApp\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-29T11:44:40.355</Modified>
+      <Modified>2023-07-03T07:07:05.356</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -955,7 +955,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Travelling-App\TravellingApp\TravellingApp\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\TravellingApp.deps.json">
       <PackagePath>TravellingApp.deps.json</PackagePath>
-      <Modified>2023-06-29T11:44:40.185</Modified>
+      <Modified>2023-07-03T07:07:05.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
