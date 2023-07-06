@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arian/Desktop/projectCSharp/Untitled/Travelling-App/TravellingApp/TravellingApp/TravellingApp.csproj": {}
+    "/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/TravellingApp.csproj": {}
   },
   "projects": {
-    "/Users/arian/Desktop/projectCSharp/Untitled/Travelling-App/TravellingApp/TravellingApp/TravellingApp.csproj": {
+    "/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/TravellingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arian/Desktop/projectCSharp/Untitled/Travelling-App/TravellingApp/TravellingApp/TravellingApp.csproj",
+        "projectUniqueName": "/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/TravellingApp.csproj",
         "projectName": "TravellingApp",
-        "projectPath": "/Users/arian/Desktop/projectCSharp/Untitled/Travelling-App/TravellingApp/TravellingApp/TravellingApp.csproj",
-        "packagesPath": "/Users/arian/.nuget/packages/",
-        "outputPath": "/Users/arian/Desktop/projectCSharp/Untitled/Travelling-App/TravellingApp/TravellingApp/obj/",
+        "projectPath": "/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/TravellingApp.csproj",
+        "packagesPath": "/Users/polinaive/.nuget/packages/",
+        "outputPath": "/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
-          "/Users/arian/.nuget/NuGet/NuGet.Config"
+          "/Users/polinaive/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0-android",
@@ -175,7 +175,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -250,7 +250,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -326,7 +326,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

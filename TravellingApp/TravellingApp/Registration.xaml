@@ -2,8 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TravellingApp.Registration"
-              Title="Registration"
-          BackgroundColor="LightCyan">
+             Title="Registration"
+             BackgroundColor="LightCyan">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
@@ -23,26 +23,27 @@
                    Grid.Column="0"
                    Opacity="0.6"/>
 
-        <StackLayout Padding="20"
-                      VerticalOptions="CenterAndExpand"
-                      HorizontalOptions="CenterAndExpand">
+            <StackLayout Padding="20"
+                         VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand"
+                          Margin="0,-100,0,0">
 
-            <Image Source="register_icon.png"
-                   HorizontalOptions="CenterAndExpand"
-                   VerticalOptions="StartAndExpand"
-                   HeightRequest="100"
-                   Margin="0,30,0,0" />
+                <Image Source="register_icon.png"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="StartAndExpand"
+                       HeightRequest="100"
+                       Margin="0,30,0,0" />
 
-            <Label Text="Registration"
-                   FontSize="34"
-                   FontFamily="OnPlatform:SilverQueen-Regular#Silver Queen Regular;"
-                   TextColor="#000000"
-                   FontAttributes="Bold"
-                   HorizontalOptions="CenterAndExpand"
-                   Margin="0,30,0,0" />
+                <Label Text="Registration"
+                       FontSize="34"
+                       FontFamily="OnPlatform:SilverQueen-Regular#Silver Queen Regular;"
+                       TextColor="#000000"
+                       FontAttributes="Bold"
+                       HorizontalOptions="CenterAndExpand"
+                       Margin="0,30,0,0" />
 
 
-                 <StackLayout Margin="0,10,0,0">
+                <StackLayout Margin="0,10,0,0">
                     <Label Text="Email"
                            FontSize="18"
                            TextColor="Black"
@@ -64,7 +65,7 @@
                     </Frame>
                 </StackLayout>
 
-            <StackLayout Margin="0,10,0,0">
+                <StackLayout Margin="0,10,0,0">
                     <Label Text="Username"
                            FontSize="18"
                            TextColor="Black"
@@ -86,7 +87,7 @@
                     </Frame>
                 </StackLayout>
 
-           <StackLayout Margin="0,10,0,0">
+                <StackLayout Margin="0,10,0,0">
                     <Label Text="Password"
                            FontSize="18"
                            TextColor="Black"
@@ -109,7 +110,7 @@
                     </Frame>
                 </StackLayout>
 
-            <StackLayout Margin="0,10,0,0">
+               <StackLayout Margin="0,10,0,0">
                     <Label Text="Confirm Password"
                            FontSize="18"
                            TextColor="Black"
@@ -131,46 +132,62 @@
                                HorizontalOptions="FillAndExpand" />
                     </Frame>
                 </StackLayout>
+                <StackLayout Margin="0,10,0,0">
+                    <Label Text="Upload Photo"
+                           FontSize="18"
+                           TextColor="Black"
+                           HorizontalOptions="Center" />
+                    <Button Text="Choose File"
+                            TextColor="Black"
+                            BackgroundColor="Transparent"
+                            FontSize="16"
+                            BorderColor="Black"
+                            BorderWidth="1"
+                            CornerRadius="20"
+                            HeightRequest="40"
+                            WidthRequest="350"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="CenterAndExpand" />
+                </StackLayout>
 
-             <Button Text="Sign up"
-                    Clicked="OnSignUpButtonClicked"
-                    TextColor="#FFFFFF"
-                    BackgroundColor="#000000"
-                    Margin="0,20,0,0"
-                    CornerRadius="20"
-                    FontAttributes="Bold"
-                    FontSize="20"
-                    HeightRequest="40"
-                    WidthRequest="130"
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="FillAndExpand"
-                    BindingContext="{x:Reference this}"
-                    IsEnabled="{Binding IsFormValid}" />
+                <Button Text="Sign up"
+                        Clicked="OnSignUpButtonClicked"
+                        TextColor="#FFFFFF"
+                        BackgroundColor="#000000"
+                        Margin="0,20,0,0"
+                        CornerRadius="20"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        HeightRequest="40"
+                        WidthRequest="130"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        BindingContext="{x:Reference this}"
+                        IsEnabled="{Binding IsFormValid}" />
 
-            <BoxView BackgroundColor="#FFFFFF"
-                     HeightRequest="1"
-                     WidthRequest="1"
-                     HorizontalOptions="FillAndExpand"
-                     VerticalOptions="FillAndExpand"
-                     Opacity="0.2" />
+                <BoxView BackgroundColor="#FFFFFF"
+                         HeightRequest="1"
+                         WidthRequest="1"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand"
+                         Opacity="0.2" />
 
-            <StackLayout Orientation="Horizontal"
-                         VerticalOptions="CenterAndExpand"
-                         HorizontalOptions="CenterAndExpand"
-                         Margin="0,20,0,0">
-                <Label Text="Already have an account?"
-                       FontSize="16"
-                       TextColor="Black"
-                       VerticalOptions="CenterAndExpand"
-                       HorizontalOptions="CenterAndExpand"
-                       Margin="0,0,5,0" >
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnSignUpButtonClicked" />
-                    </Label.GestureRecognizers>
-                </Label>
-
+                <StackLayout Orientation="Horizontal"
+                             VerticalOptions="CenterAndExpand"
+                             HorizontalOptions="CenterAndExpand"
+                             Margin="0,20,0,0">
+                    <Label Text="Already have an account?"
+                           FontSize="16"
+                           TextColor="Black"
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           Margin="0,0,5,0" >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnSignUpButtonClicked" />
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
             </StackLayout>
-        </StackLayout>
-         </Grid>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
