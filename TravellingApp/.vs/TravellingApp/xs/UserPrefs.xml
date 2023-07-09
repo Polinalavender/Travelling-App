@@ -1,33 +1,34 @@
 ﻿<Properties StartupConfiguration="{8101F894-0365-4D9D-9807-307B1F08ADA2}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TravellingApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.72B8A272-5048-4977-AA19-11EE39F9F591" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.72B8A272-5048-4977-AA19-11EE39F9F591" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TravellingApp/Registration.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TravellingApp/Model/User.cs">
     <Files>
-      <File FileName="TravellingApp/Model/Trip.cs" />
-      <File FileName="TravellingApp/Model/User.cs" />
-      <File FileName="TravellingApp/Registration.xaml.cs" Line="61" Column="1" />
-      <File FileName="TravellingApp/Registration.xaml" Line="15" Column="38" />
-      <File FileName="TravellingApp/UserService.cs" Line="45" Column="1" />
+      <File FileName="TravellingApp/SearchPage.xaml" Line="44" Column="44" />
+      <File FileName="TravellingApp/MainPage.xaml.cs" />
+      <File FileName="TravellingApp/Model/Pin.cs" Line="1" Column="1" />
+      <File FileName="TravellingApp/Model/Trip.cs" Line="1" Column="1" />
+      <File FileName="TravellingApp/Model/User.cs" Line="1" Column="1" />
+      <File FileName="TravellingApp/Model/UserService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TravellingApp" expanded="True">
             <Node name="TravellingApp" expanded="True">
-              <Node name="Model" expanded="True" />
-              <Node name="Registration.xaml" expanded="True">
-                <Node name="Registration.xaml.cs" selected="True" />
+              <Node name="Model" expanded="True">
+                <Node name="User.cs" selected="True" />
               </Node>
+              <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.ItemProperties.TravellingApp PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

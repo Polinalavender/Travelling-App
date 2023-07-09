@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/arian/Desktop/projectCSharp/Untitled/Travelling-App/TravellingApp/TravellingApp</SourceProjectPath>
+      <SourceProjectPath>/Users/polinaive/Documents/GitHub/Travelling-App/TravellingApp/TravellingApp</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>
