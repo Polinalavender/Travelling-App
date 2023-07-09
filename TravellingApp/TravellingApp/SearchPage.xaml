@@ -48,7 +48,7 @@
                                Grid.Column="1" />
                         </Grid>
                     </StackLayout>
-                </Frame>
+                </Frame> 
                 </Grid>
             </StackLayout>
       

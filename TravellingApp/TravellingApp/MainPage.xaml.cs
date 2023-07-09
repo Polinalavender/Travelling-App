@@ -26,7 +26,7 @@ public partial class MainPage : ContentPage
 
     private void OnAccountImageTapped(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new AccountPage());
+        Navigation.PushAsync(new SearchPage());
     }
 
     void Button_Clicked(System.Object sender, System.EventArgs e)
