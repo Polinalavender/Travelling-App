@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:signIn="clr-namespace:fbRegLoginV2.Views.SignIn"
+             xmlns:views="clr-namespace:fbRegLoginV2.Views"
+             x:Class="fbRegLoginV2.Views.SignIn.SignInView"
+             Title="SignInView">
+            <ScrollView>
+                <VerticalStackLayout Padding="25" MaximumWidthRequest="800">
+                    <Label FontSize="Large" Text="Sign In" />
+                    <signIn:SignInFormView Margin="0,25,0,0" BindingContext="{Binding SignInFormViewModel}" />
+                    <views:Link Route="//SignUp" Text="Sign UP" />
+                </VerticalStackLayout>
+            </ScrollView>
+        </ContentPage>

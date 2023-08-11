@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="testInsRet.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image
+                Source="dotnet_bot.png"
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+
+            <!--
+                <Label
+                Text="Welcome"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center" /> -->
+
+            <Label
+                Text="Test Insert and Retrieval"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="testIntro"
+                FontSize="18"
+                HorizontalOptions="Center" />
+            
+            <!-- ENTRY for the database object, for the string in the 
+                 TestItems class which resides in the MainPage.xaml.cs
+             -->
+            <Entry x:Name="stringEntry" Placeholder="Enter smth.."/>
+
+
+                <Button
+                x:Name="CounterBtn"
+                Text="Click me"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="sendObj"
+                HorizontalOptions="Center" />
+            
+            <!--
+                Collection view to put the retrieved items inside of it
+             -->
+            <CollectionView ItemsSource="{Binding ObsvervableItems}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding testString}" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

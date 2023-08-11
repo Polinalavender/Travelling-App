@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="fbRegLoginV2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:fbRegLoginV2"
+    xmlns:signUp="clr-namespace:fbRegLoginV2.Views.SignUp"
+    xmlns:signIn="clr-namespace:fbRegLoginV2.Views.SignIn"
+    Shell.FlyoutBehavior="Disabled">
+    
+    <ShellContent
+        Title="Sign In"
+        ContentTemplate="{DataTemplate signIn:SignInView}"
+        Route="SignIn" />
+    
+    <ShellContent
+        Title="Sign Up"
+        ContentTemplate="{DataTemplate signUp:SignUpView}"
+        Route="SignUp" />
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
