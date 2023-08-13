@@ -12,7 +12,7 @@
       <CodesignDisableTimestamp>true</CodesignDisableTimestamp>
       <CodesignKeychain></CodesignKeychain>
       <CodesignUseHardenedRuntime></CodesignUseHardenedRuntime>
-      <SourceProjectPath>/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/testInsRet</SourceProjectPath>
+      <SourceProjectPath>/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/testInsRet</SourceProjectPath>
     </_CodesignBundle>
   </ItemGroup>
 </Project>

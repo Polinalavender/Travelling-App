@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WLSEyHqigkc1zEEHDt+M/vlZcYuCLE9iPB8yQSgiH7fXrKb4DlNZN7wVhILMwZsXbQ/atacHl0jFIqtrcrpvHA==",
+  "dgSpecHash": "ocWfP/mWSI+MEcaSp8O0FrX9XGca33I3Q4mMBNS5t3M9xf6ai6q8BPBdg36FkZzxrZZR5/ZoMgCq3n63ELrhCw==",
   "success": true,
-  "projectFilePath": "/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/fbRegLogin/fbRegLogin.csproj",
+  "projectFilePath": "/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbRegLogin/fbRegLogin.csproj",
   "expectedPackageFiles": [
     "/Users/arian/.nuget/packages/firebaseauthentication.net/4.0.2/firebaseauthentication.net.4.0.2.nupkg.sha512",
     "/Users/arian/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",

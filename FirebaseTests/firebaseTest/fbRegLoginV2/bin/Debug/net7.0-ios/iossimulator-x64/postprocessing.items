@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>fbRegLoginV2.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/fbRegLoginV2/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbRegLoginV2/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
       <DSymName>fbRegLoginV2.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/fbRegLoginV2</SourceProjectPath>
+      <SourceProjectPath>/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbRegLoginV2</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

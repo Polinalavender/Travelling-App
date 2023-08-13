@@ -7,9 +7,9 @@
       <dSYMSourcePathExists>false</dSYMSourcePathExists>
       <NoSymbolStrip>true</NoSymbolStrip>
       <dSYMInfoPlistRelativePath>testInsRet.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
-      <SymbolFile>/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/testInsRet/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <SymbolFile>/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/testInsRet/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
       <DSymName>testInsRet.app.dSYM</DSymName>
-      <SourceProjectPath>/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/testInsRet</SourceProjectPath>
+      <SourceProjectPath>/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/testInsRet</SourceProjectPath>
     </_PostProcessingItem>
   </ItemGroup>
 </Project>

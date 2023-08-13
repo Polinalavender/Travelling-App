@@ -4,7 +4,7 @@ AreAnyAssembliesTrimmed=false
 				AOTCompiler=/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.AOT.osx-x64.Cross.maccatalyst-x64/7.0.9/Sdk/../tools/mono-aot-cross
 				AOTOutputDirectory=obj/Debug/net7.0-maccatalyst/maccatalyst-x64/nativelibraries/aot-output/
 				AppBundleManifestPath=bin/Debug/net7.0-maccatalyst/maccatalyst-x64/fbRegLogin.app/Contents/Info.plist
-				CacheDirectory=/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/fbRegLogin/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/linker-cache
+				CacheDirectory=/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbRegLogin/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/linker-cache
 				
 				Debug=true
 				DeploymentTarget=13.1
@@ -183,7 +183,7 @@ FrameworkAssembly=System.Private.CoreLib
 				Interpreter=all
 				IntermediateLinkDir=obj/Debug/net7.0-maccatalyst/maccatalyst-x64/linked/
 				InvariantGlobalization=false
-				ItemsDirectory=/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/fbRegLogin/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/linker-items
+				ItemsDirectory=/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbRegLogin/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/linker-items
 				IsAppExtension=false
 				IsSimulatorBuild=False
 				LibMonoLinkMode=dylib

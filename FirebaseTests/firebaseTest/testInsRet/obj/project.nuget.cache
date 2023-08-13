@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QGrTM1++dAuXeRgtzT7qMXKd69b0qd+Vu2XRK2sZkTiq37TuztB7++WxmLmEPxeyWHvAGs/OvhuQh6CNssNMCA==",
+  "dgSpecHash": "U2wT9ZZoxTdSvUO3rZuSgfMooOHy3uelF2tyTbUw1I/w7RMQWIZRw57LU5P2e6mu8OqemFncnDHHjtQnLfvndA==",
   "success": true,
-  "projectFilePath": "/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/testInsRet/testInsRet.csproj",
+  "projectFilePath": "/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/testInsRet/testInsRet.csproj",
   "expectedPackageFiles": [
     "/Users/arian/.nuget/packages/firebasedatabase.net/4.2.0/firebasedatabase.net.4.2.0.nupkg.sha512",
     "/Users/arian/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",

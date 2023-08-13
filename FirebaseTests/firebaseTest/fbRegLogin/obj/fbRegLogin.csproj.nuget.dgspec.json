@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/fbRegLogin/fbRegLogin.csproj": {}
+    "/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbRegLogin/fbRegLogin.csproj": {}
   },
   "projects": {
-    "/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/fbRegLogin/fbRegLogin.csproj": {
+    "/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbRegLogin/fbRegLogin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/fbRegLogin/fbRegLogin.csproj",
+        "projectUniqueName": "/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbRegLogin/fbRegLogin.csproj",
         "projectName": "fbRegLogin",
-        "projectPath": "/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/fbRegLogin/fbRegLogin.csproj",
+        "projectPath": "/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbRegLogin/fbRegLogin.csproj",
         "packagesPath": "/Users/arian/.nuget/packages/",
-        "outputPath": "/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/fbRegLogin/obj/",
+        "outputPath": "/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbRegLogin/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [

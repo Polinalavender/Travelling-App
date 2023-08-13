@@ -20,4 +20,9 @@ public partial class MainPage : ContentPage
 
         SemanticScreenReader.Announce(CounterBtn.Text);
     }
+
+    private void Button_OnClicked(object sender, EventArgs e)
+    {
+        throw new NotImplementedException();
+    }
 }

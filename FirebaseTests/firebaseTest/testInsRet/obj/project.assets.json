@@ -23842,11 +23842,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/testInsRet/testInsRet.csproj",
+      "projectUniqueName": "/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/testInsRet/testInsRet.csproj",
       "projectName": "testInsRet",
-      "projectPath": "/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/testInsRet/testInsRet.csproj",
+      "projectPath": "/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/testInsRet/testInsRet.csproj",
       "packagesPath": "/Users/arian/.nuget/packages/",
-      "outputPath": "/Users/arian/Desktop/Uni/SandboxCSharpTwo/FirebaseTests/firebaseTest/testInsRet/obj/",
+      "outputPath": "/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/testInsRet/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
