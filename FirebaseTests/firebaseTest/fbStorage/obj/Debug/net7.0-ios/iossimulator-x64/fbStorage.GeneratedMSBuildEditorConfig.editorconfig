@@ -1,0 +1,47 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = fbStorage
+build_property.ProjectDir = /Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbStorage/
+
+[/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbStorage/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fbStorage.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbStorage/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fbStorage.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbStorage/ImagePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fbStorage.ImagePage.xaml
+build_metadata.AdditionalFiles.TargetPath = ImagePage.xaml
+build_metadata.AdditionalFiles.RelativePath = ImagePage.xaml
+
+[/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbStorage/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fbStorage.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbStorage/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fbStorage.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbStorage/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = fbStorage.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml

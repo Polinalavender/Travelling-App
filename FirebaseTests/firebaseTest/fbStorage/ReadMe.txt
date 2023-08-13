@@ -1,0 +1,3 @@
+- Make a storage bucket on FireBase
+- Add the NuGet extension FirebaseStorage.net
+- Reference: https://cedricgabrang.medium.com/upload-files-to-firebase-cloud-storage-from-a-net-maui-app-59c1aae928fc

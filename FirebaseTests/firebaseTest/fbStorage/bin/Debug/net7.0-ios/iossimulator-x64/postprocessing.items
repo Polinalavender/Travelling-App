@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="fbStorage.app/fbStorage">
+      <BCSymbolMapName>fbStorage.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>fbStorage.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbStorage/obj/Debug/net7.0-ios/iossimulator-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>fbStorage.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/arian/Desktop/GitRepos/TravellingApp/Travelling-App/FirebaseTests/firebaseTest/fbStorage</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
